@@ -1,0 +1,68 @@
+#+TITLE: Org Guide
+
+* Structure Editing
+| new same level heading               | M-<RET>   |
+| Promote current heading by one level | M-<LEFT>  |
+| Demote current heading by one level  | M-<RIGHT> |
+| Move same level heading up           | M-<UP>    |
+| Move same level heading down         | M-<DOWN>  |
+
+* Motion
+| local cycling               | <TAB>             |
+| Global cycling              | C-u <TAB>         |
+| Next heading                | C-c C-n           |
+| Previous heading            | C-c C-p           |
+| Previous heading same level | C-c C-b           |
+| Next Heading same leve      | C-c C-f           |
+| Backward to higher level    | C-c C-u           |
+| Show/Close all              | C-u C-u C-u <TAB> |
+
+* Plain Lists
+| ordered lists items                     | '1.'                |
+| unorderd lists items                    | '+' or '-' or '*'   |
+| description list                        | item :: description |
+| Fold List                               | <TAB>               |
+| new item at current level               | M-<RET>             |
+| New item at current level with Checkbox | M-S-<RET>           |
+| move Item up                            | M-S-<UP>            |
+| move item down                          | M-S-<DOWN>          |
+| decrease intention without subitems     | M-<LEFT>            |
+| increase intention without subitems     | M-<RIGHT>           |
+| decrease intention with subitems        | M-S-<LEFT>          |
+| increase intention with subitems        | M-<RIGHT>           |
+| toggel Checkbox                         | C-c C-              |
+
+* TODOS
+| add a new TODO to the file | M-SHIFT-RET        |
+| cycle trough states        | C-c C-t            |
+| set previous/next state    | S-<LEFT>/S-<RIGHT> |
+
+* Tables
+org comes with an fast intuitiv tabel editor. Spreadsheet-like
+calculations are supported in connection with the Emacs Calc package.
+
+| test | test   
+
+press C-c <RET>  to expand the Tabel
+
+| Test | Test |
+|------+------|
+|      |      |
+
+| Move to the next cell/ create new Row | <TAB>                              |
+| Move to the previous cell             | S-<TAB>                            |
+| Move to next Row/ create new Row      | <RET>                              |
+| Move Cell                             | S-<UP>/S-<DOWN>/S-<Left>/S-<RIGHT> |
+| Move current column left/right        | M-<LEFT>/M-<RIGHT>                 |
+| Delet current column                  | M-S-<LEFT>                         |
+| Insert column                         | M-S-<RIGHT>                        |
+| Move row up/down                      | M-<UP>/M-<DOWN>                    |
+| Delet current row                     | M-S-<UP>                           |
+| Insert row                            | M-S-<DOWN>                         |
+| Insert seperator line                 | C-c -                              |
+| Insert seperator line and a new row   | C-c <RET>                          |
+
+* Hyperlinks
+mit mir kann man bestimmt schöne sachen machen
+* Sparse Trees
+ich bin wichtig, aber noch nicht jetzt
