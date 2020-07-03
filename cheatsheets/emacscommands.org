@@ -1,0 +1,57 @@
+* End Emacs: C-x C-c
+* quit partially entered commande: C-g
+* Help: C-h ?
+* Manuel: C-h m
+* Browse Manuale: C-h i
+* Tutorial: C-h t
+* Menu: M-`
+  
+* Text Navigation
+| Move forward one screenful | C-v |
+| Move backward one sreenful | M-v |
+| Center cursor and Text     | C-l |
+| Previous Line              | C-p |
+| Next Line                  | C-n |
+| One Character Backward     | C-b |
+| One Character Forward      | C-f |
+| One Word Backward          | M-b |
+| One Word forward           | M-f |
+| Line Start                 | C-a |
+| Line End                   | C-e |
+| Sentence Start             | M-a |
+| Sentence Ende              | M-e |
+| Start of File              | M-< |
+| End of File                | M-> |
+* File
+| open/new File                 | C-x C-f |
+| open dir                      | C-x d   |
+| insert File in current Buffer | C-x i   |
+| save as                       | C-x C-w |
+| save                          | C-x C-s |
+| kill all other Windows        | C-x 1   |
+| new Window below              | C-x 2   |
+| new Window on right           | C-x 3   |
+* Edit
+** Basics
+| undo       | C-x u   |
+| save       | C-x C-s |
+| Cut        | C-w     |
+| Copy       | M-w     |
+| Past       | C-y     |
+| Select all | C-x h   |
+| Set a mark | C-<SPC> |
+** Delete & Kill
+| delete character befor cursor       | <DEL>   |
+| delete character after cursor       | C-d     |
+| kill word befor cursor              | M-<DEL> |
+| kill word after cursor              | M-d     |
+| kill from Cursor to end of line     | C-k     |
+| kill from Cursor to end of Sentence | M-k     |
+* Buffers
+| open Buffer by name | C-x b       |
+| List Buffer         | C-x C-b     |
+| Close this buffer   | C-x k <ret> |
+
+
+
+
