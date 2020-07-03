@@ -23,7 +23,7 @@
 
 ;; start with cheatsheets
 (find-file "~/my-emacs-config/cheatsheets/emacscommands.org")
-(find-file "~/my-emacs-config/cheatsheets/orgmodecommands.org)
+(find-file "~/my-emacs-config/cheatsheets/orgmodecommands.org")
 ;; ORG-Settings
 ;; Key-bindings
 (global-set-key (kbd "C-c l") 'org-store-link)
