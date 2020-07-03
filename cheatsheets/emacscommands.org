@@ -50,6 +50,9 @@
 | kill word after cursor              | M-d     |
 | kill from Cursor to end of line     | C-k     |
 | kill from Cursor to end of Sentence | M-k     |
+| Replace                             | M-%     |
+| Replace with regex                  | M-S-%   |
+
 
 * Buffers
 | open Buffer by name | C-x b       |
@@ -59,3 +62,6 @@
 
 
 
+* Terminal
+| Shell-Command | M-!      |
+| Terminal      | M-x term |
