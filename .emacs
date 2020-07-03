@@ -1,3 +1,4 @@
+;; remove Toolbar
 (tool-bar-mode -1)
 
 ;; Added by Package.el.  This must come before configurations of
@@ -20,7 +21,9 @@
  ;; If there is more than one, they won't work right.
  )
 
-
+;; start with cheatsheets
+(find-file "~/my-emacs-config/cheatsheets/emacscommands.org")
+(find-file "~/my-emacs-config/cheatsheets/orgmodecommands.org")
 ;; ORG-Settings
 ;; Key-bindings
 (global-set-key (kbd "C-c l") 'org-store-link)
