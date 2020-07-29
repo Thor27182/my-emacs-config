@@ -55,12 +55,10 @@
 
 
 * Buffers
-| open Buffer by name | C-x b       |
-| List Buffer         | C-x C-b     |
-| Close this buffer   | C-x k <ret> |
-
-
-
+| open Buffer by name    | C-x b       |
+| List Buffer            | C-x C-b     |
+| Close this buffer      | C-x k <ret> |
+| switch between windows | C-x o       |
 
 * Terminal
 | Shell-Command | M-!      |
