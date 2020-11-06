@@ -35,6 +35,7 @@
 | kill all other Windows        | C-x 1   |
 | new Window below              | C-x 2   |
 | new Window on right           | C-x 3   |
+| cycle through windows         | M-p     |
 
 * Edit
 | undo                                | C-x u   |
@@ -52,7 +53,6 @@
 | kill from Cursor to end of Sentence | M-k     |
 | Replace                             | M-%     |
 | Replace with regex                  | M-S-%   |
-
 
 * Buffers
 | open Buffer by name    | C-x b       |
