@@ -36,7 +36,12 @@
 | add a new TODO to the file | M-SHIFT-RET        |
 | cycle trough states        | C-c C-t            |
 | set previous/next state    | S-<LEFT>/S-<RIGHT> |
+| attach Deadline            | C-c C-d            |
 
+
+** DONE cycle though
+   CLOSED: [2020-11-12 Do 17:09]
+Note: with S-<LEFT>/S-<RIGHT> you can change the Date
 * Tables
 org comes with an fast intuitiv tabel editor. Spreadsheet-like
 calculations are supported in connection with the Emacs Calc package.
@@ -62,7 +67,52 @@ press C-c <RET>  to expand the Tabel
 | Insert seperator line                 | C-c -                              |
 | Insert seperator line and a new row   | C-c <RET>                          |
 
-* Hyperlinks
-mit mir kann man bestimmt schöne sachen machen
+* Links
+[[link][description]]
+[[https://www.youtube.com/watch?v=SzA2YODtgK4][Getting Started With Org Mode]]
+you can link to files, Emails, TODOS, websites etc. 
+| create a link | C-c C-l    |
+| open a link   | C-c C-o    |
+| unfold link   | <backspace |
+
 * Sparse Trees
 ich bin wichtig, aber noch nicht jetzt
+* Markup
++ *Bold*
++ /italic/
++ =verbatim=
++ +strikethrough+
+* Export to other formats
+| Export | C-c C-E |
+
+possible Formats:
++ iCalendar
++ HTML
++ LaTeX
++ Markdown
++ Plain Tex
+* Source code
+need to open an "code enviroment"
+
+| create a code enviroment | <s-<TAB> |
+| edit in language mode    | C-c '    |
+| evaluate the code        | C-c C-c  |
+
+ #+BEGIN_SRC ruby
+ puts "Hello, World!"
+ #+END_SRC
+** TODO needs setup!
+* LaTeX
++ Characters: \alpha \rightarrow \beta \LaTeX
++ Math-Blocks: $O(n \log n)$
+
+\begin{align*}
+	3 * 2 + 1 &= 6 + 1
+	&= 7
+\end{align*}
+* Agenda
+| Agenda | C-c a |
+** TODO reserch Agenda/calendar
+** TODO need Setup
+
+* TODO ORG-babel research
