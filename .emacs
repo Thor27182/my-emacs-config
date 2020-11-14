@@ -33,7 +33,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (auctex yasnippet-snippets yasnippet auto-complete org ##))))
+    (multiple-cursors auctex yasnippet-snippets yasnippet auto-complete org ##))))
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -54,3 +54,10 @@
 
 ;; add timestamp, when a todo is changed to done
 (setq org-log-done t)
+
+;Multiple cursors
+(when (fboundp 'mc/edit-lines)
+  (global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
+  (global-set-key (kbd "C->") 'mc/mark-next-like-this)
+  (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
+  (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this))
