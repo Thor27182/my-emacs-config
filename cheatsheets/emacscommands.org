@@ -26,17 +26,6 @@
 | Start of File              | M-< |
 | End of File                | M-> |
 
-* File
-| open/new File                 | C-x C-f |
-| open dir                      | C-x d   |
-| insert File in current Buffer | C-x i   |
-| save as                       | C-x C-w |
-| save                          | C-x C-s |
-| kill all other Windows        | C-x 1   |
-| new Window below              | C-x 2   |
-| new Window on right           | C-x 3   |
-| cycle through windows         | M-p     |
-
 * Edit
 | undo                                | C-x u   |
 | save                                | C-x C-s |
@@ -54,12 +43,37 @@
 | Replace                             | M-%     |
 | Replace with regex                  | M-S-%   |
 
-* Buffers
-| open Buffer by name    | C-x b       |
-| List Buffer            | C-x C-b     |
-| Close this buffer      | C-x k <ret> |
-| switch between windows | C-x o       |
+* File
+| open/new File                 | C-x C-f |
+| open dir                      | C-x d   |
+| insert File in current Buffer | C-x i   |
+| save as                       | C-x C-w |
+| save                          | C-x C-s |
+| kill all other Windows        | C-x 1   |
+| new Window below              | C-x 2   |
+| new Window on right           | C-x 3   |
+| cycle through windows         | M-p     |
 
+* Buffers
+| open Buffer by name          | C-x b       |
+| List Buffer                  | C-x C-b     |
+| Close this buffer            | C-x k <ret> |
+| switch between windows       | C-x o       |
+| Move courser to other Buffer | M-+         |
+
+
+* Search and Replace
+1. Create a Region (optional)
+   1. C-<SPC>
+   2. Move Pointer to the end of the region
+2. M-x replace-string
+3. type search-string
+4. type replace-sting
 * Terminal
 | Shell-Command | M-!      |
 | Terminal      | M-x term |
+* Multi-cursore
+| edit-lines          | C-S-c C-S-c |
+| mark next like this | C->         |
+| mark prev like this | C-<         |
+| mark all like this  | C-c C-<     |
